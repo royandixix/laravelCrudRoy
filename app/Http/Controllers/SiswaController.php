@@ -16,7 +16,7 @@ class SiswaController extends Controller
         return view('siswa.tampil', compact('siswa'));
     }
 
-    function tambahh(){
+    function tambah(){
         return view('siswa.tambah');
 
     }
