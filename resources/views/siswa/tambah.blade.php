@@ -24,6 +24,6 @@
             <input type="text" name="hobi" class="form-control">
         </div>
 
-        <button class="btn btn-primary" type="submit">Tamabh</button>
+        <button class="btn btn-primary" type="submit">Tambah</button>
     </form>
 @endsection

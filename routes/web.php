@@ -22,7 +22,7 @@ Route::get('/siswa/tambah', [SiswaController::class, 'tambah'])->name('siswa.tam
 Route::post('/siswa/submit', [SiswaController::class, 'submit'])->name('siswa.submit');
 Route::get('/siswa/edit/{id}', [SiswaController::class, 'edit'])->name('siswa.edit');
 Route::post('/siswa/update/{id}', [SiswaController::class, 'update'])->name('siswa.update');
-Route::post('/siswa/delete/{id}', [SiswaController::class, 'delete'])->name('siswa.delete');
+Route::get('/siswa/delete/{id}', [SiswaController::class, 'hapus'])->name('siswa.delete');
 
 
 
